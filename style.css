@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgb(1, 85, 181);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a:hover{
+    font-size: 1.74rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main hr{
+    border: 0;
+    background: rgb(0, 101, 216);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 2.5rem;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    align-items: center;
+}
+.firstsec> div{
+    width: 30%;
+}
+.txt{
+    color: rgb(163, 163, 239);
+}
+.leftsec{
+    color: black;
+    font-size: 3rem;
+    margin: 70px 0;
+    margin-top: 150px;
+}
+.leftsec .buttons{
+    padding: 50px 0;
+}
+.leftsec .btn{
+    padding:12px;
+    background: rgb(163, 163, 239);
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.rightsec img{
+    width:100%;
+    margin: 70px 0px;
+}
+.purple{
+    color: rgb(0, 101, 216);
+}
+#element{
+    color:rgb(0, 101, 216);
+}
+.secondsec{
+    max-width:80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsec .box{
+    background-color:black;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsec .vertical{
+    height: 96px;
+    width: 1.3px;
+    background-color: black;
+    margin: 0 130px;
+}
+.imgtop{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.verticaltext{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 30px;
+
+}
+.verticaldesc{
+    position: relative;
+    top: 86px;
+    color: rgb(0, 101, 216);
+    width: 150px;
+    font-size: 13px;
+}
+.footer{
+    background-color:rgb(150, 199, 255);
+    height: 20vh;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer> div{
+    width:223px;
+}
+footer .footerrights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  background-image: url('oi.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    color: rgb(0, 101, 216);
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0rem 3rem 0em;
+
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+    font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgb(150, 199, 255);
+  text-decoration: none;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.content-footer > p {
+  color: #F7EDE1;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 2em 2.5em;
+  }
+  .box{
+    flex-direction: column;
+
+  }
+}
+.questions-section .about-me{
+    font-size: 3rem;
+    color: rgb(74, 74, 253);
+}
+  .right_conatct_social_icon{
+       background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+  }
+  .contact_us{
+      background-color: #f1f1f1;
+      padding: 120px 0px;
+  }
+  
+  .contact_inner{
+      background-color: #fff;
+      position: relative;
+      box-shadow: 20px 22px 44px #cccc;
+      border-radius: 25px;
+  }
+  .contact_field{
+      padding: 60px 340px 90px 100px;
+  }
+  .right_conatct_social_icon{
+      height: 100%;
+  }
+  
+  .contact_field h3{
+     color: #000;
+      font-size: 40px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-bottom: 10px
+  }
+  .contact_field p{
+      color: #000;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+  }
+  .contact_field .form-control{
+      border-radius: 0px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+  }
+  .contact_field .form-control:focus{
+      box-shadow: none;
+      outline: none;
+      border-bottom: 2px solid #1325e8;
+  }
+  .contact_field .form-control::placeholder{
+      font-size: 13px;
+      letter-spacing: 1px;
+  }
+  
+  .contact_info_sec {
+      position: absolute;
+      background-color: #2d2d2d;
+      right: 1px;
+      top: 18%;
+      height: 340px;
+      width: 340px;
+      padding: 40px;
+      border-radius: 25px 0 0 25px;
+  }
+  .contact_info_sec h4{
+      letter-spacing: 1px;
+      padding-bottom: 15px;
+  }
+  
+  .info_single{
+      margin: 30px 0px;
+  }
+  .info_single i{
+      margin-right: 15px;
+  }
+  .info_single span{
+      font-size: 14px;
+      letter-spacing: 1px;
+  }
+  
+  button.contact_form_submit {
+      background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+      border: none;
+      color: #fff;
+      padding: 10px 15px;
+      width: 100%;
+      margin-top: 25px;
+      border-radius: 35px;
+      cursor: pointer;
+      font-size: 14px;
+      letter-spacing: 2px;
+  }
+  .socil_item_inner li{
+      list-style: none;
+  }
+  .socil_item_inner li a{
+      color: #fff;
+      margin: 0px 15px;
+      font-size: 14px;
+  }
+  .socil_item_inner{
+      padding-bottom: 10px;
+  }
+  
+  .map_sec{
+      padding: 50px 0px;
+  }
+  .map_inner h4, .map_inner p{
+      color: #000;
+      text-align: center
+  }
+  .map_inner p{
+      font-size: 13px;
+  }
+  .map_bind{
+     margin-top: 50px;
+      border-radius: 30px;
+      overflow: hidden;
+  }
+/* Your existing styles for larger screens */
+
+@media only screen and (max-width: 950px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        gap: 3.7rem;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .masthead {
+        padding: 3em 0;
+    }
+
+    .masthead-heading {
+        font-size: 3em;
+    }
+
+    .content-footer {
+        padding: 2em;
+    }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .verticaldesc{
+        opacity: 1;
+        padding-left:30px ;
+    }
+    .verticaltext{
+        padding-left: 30px;
+    }
+    .vertical{
+        height: 500px;
+    }
+    .nav{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .box{
+        align-items: center;
+    }
+    .imgtop{
+        position: relative;
+        top: 11.5rem;
+        left: -1rem;
+        overflow: hidden;
+    }
+    footer{
+        margin-top: 50rem;
+    }
+    .secondsec .vertical{
+        height: 1500px;
+        width: 1.3px;
+        margin: -64px 130px 100px;
+        background-color: black;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .leftsec{
+        margin-bottom: -28px;
+        margin-top: -20px;
+    }
+    .firstsec{
+        flex-direction: column-reverse;
+    }
+    .rightsec img{
+        margin: 30px 0px;
+    }
+}
+@media only screen and (max-width:470px){
+    .footer{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:470px){
+    .introduction-section{
+        text-align: center;
+    }
+    main hr{
+        border: 0;
+        background: rgb(0, 101, 216);
+        height: 1.2px;
+        margin: 0px -9rem 0rem 6rem;
+
+    }
+    .leftsec{
+        width: 100%;
+        padding-left: 14rem;
+    }
+    .secondsec{
+        padding-left: 89px;
+        padding-top: 65px;
+    }
+    .rightsec img{
+        padding-left: 6rem;
+    }
+    header{
+        margin-left: -1rem;
+        margin-right: -16rem;
+    }
+}
+@media only screen and (max-width:1470px){
+    header{
+        margin-left: -1rem;
+        margin-right: -16rem;
+    }
+    main hr{
+        border: 0;
+        background: rgb(0, 101, 216);
+        height: 1.2px;
+        margin: 0px -9rem 0rem 6rem;
+
+    }
+    .box {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .secondsec{
+        margin: 60px 120px 123px 11rem;
+    }
+    .secondsec .vertical{
+        height: 1500px;
+        width: 1.3px;
+        margin: -64px 130px 100px;
+        background-color: black;
+    }
+    .imgtop{
+        top: 8rem;
+        margin-left: -3rem;
+    }
+    .secondsec .box{
+        align-items: center;
+        padding-left: 8rem;
+    }
+    .verticaltext{
+        padding-left: 1rem;
+    }
+    .verticaldesc{
+        padding-left: 1rem;
+    }
+    .secondsec{
+        margin-top: 1rem;
+    }
+    .footer{
+        margin-top: 25rem;
+        width: 100%;
+    }
+    footer .footerrights{
+        padding-left: 12rem;
+    }
+
+}
+@media only screen and (max-width:469px){
+    header{
+        margin-left: 0rem;
+        margin-right: -25rem;
+    }
+    .footer{
+        padding: 1rem 13rem;
+    }
+    .secondsec{
+        padding-left: 0rem;
+        width: 100%;
+    }
+    main hr{
+        border: 0;
+        background: rgb(0, 101, 216);
+        height: 1.2px;
+        margin: -1rem -22rem 0rem 6rem;
+
+    }
+    footer .footerrights{
+        width: 100%;
+    }
+    .masthead{
+        padding-right: 25rem;
+    }
+}

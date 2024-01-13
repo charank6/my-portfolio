@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <small>PLS CLICK "LIKE" BUTTON IF YOU ARE PLEASED WITH MY PORTFOLIO</small>
+<div class="wrapper centered">
+  <article class="letter">
+    <div class="side">
+      <h1>Contact us</h1>
+      <div class="top">
+        Hello there! I'm a passionate web developer, and I'm excited about the opportunity to connect with you. Whether you're interested in discussing potential projects, have questions about my work,I'm here for it all.
+      </div>
+    </div>
+    <div class="side">
+      <div class="top1">
+        MY EMAIL - sravanamcharan20@gmail.com
+      </div>
+      <div class="top1">
+        MOBILE NUMBER - 8309919908
+      </div>
+      <p>
+        <button id="sendLetter">LIKE</button>
+      </p>
+    </div>
+    
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+<p class="result-message centered">Thank you for liking my portfolio. <a href="index.html">HOME</a></p>
+<script>
+    function addClass() {
+        document.body.classList.add("sent");
+      }
+      
+      sendLetter.addEventListener("click", addClass);
+</script>
+</body>
+</html>
